@@ -1,0 +1,118 @@
+{
+  "headline": "loli",
+  "menu": [
+    {
+      "label": "apps",
+      "icon": "apps",
+      "data": {
+        "type": "pages",
+        "headline": "Apps y Destacados",
+        "template": {
+          "type": "separate",
+          "color": "msx-glass"
+        },
+        "items": [
+          {
+            "title": "Destacado Verde",
+            "layout": "0,0,12,2",
+            "color": "msx-green",
+            "action": "info:Aquí puedes poner tu banner o video principal"
+          },
+          {
+            "title": "Sección Gris",
+            "layout": "0,2,6,1",
+            "color": "msx-gray",
+            "action": "info:Bloque gris"
+          },
+          {
+            "title": "Sección Azul",
+            "layout": "6,2,6,1",
+            "color": "msx-blue",
+            "action": "info:Bloque azul"
+          },
+          {
+            "title": "YouTube",
+            "layout": "0,3,3,1",
+            "color": "msx-red",
+            "icon": "play-circle-filled",
+            "action": "link:https://www.youtube.com/tv"
+          },
+          {
+            "title": "Netflix",
+            "layout": "3,3,3,1",
+            "color": "msx-white",
+            "icon": "movie",
+            "action": "link:https://www.netflix.com"
+          },
+          {
+            "title": "Roblox",
+            "layout": "6,3,3,1",
+            "color": "msx-blue",
+            "icon": "videogame-asset",
+            "action": "link:https://www.roblox.com"
+          },
+          {
+            "title": "Navegador",
+            "layout": "9,3,3,1",
+            "color": "msx-cyan",
+            "icon": "public",
+            "action": "link:https://www.google.com"
+          }
+        ]
+      }
+    },
+    {
+      "label": "buscar",
+      "icon": "search",
+      "action": "search:https://fajardomariela13-maker.github.io/Mi-servidor/buscar.json?q={QUERY}"
+    },
+    {
+      "label": "games",
+      "icon": "sports-esports",
+      "data": {
+        "type": "pages",
+        "headline": "Games",
+        "template": {
+          "type": "separate",
+          "layout": "0,0,4,2",
+          "color": "msx-blue"
+        },
+        "items": [
+          {
+            "title": "Mi Juego 3D",
+            "action": "link:https://fajardomariela13-maker.github.io/Mi-servidor/juego.html"
+          }
+        ]
+      }
+    },
+    {
+      "label": "notificaciones",
+      "icon": "notifications",
+      "data": {
+        "type": "pages",
+        "headline": "Notificaciones",
+        "items": [
+          {
+            "title": "Bienvenido a loli",
+            "text": "Servidor iniciado correctamente."
+          }
+        ]
+      }
+    },
+    {
+      "label": "mensajes",
+      "icon": "message",
+      "data": {
+        "type": "pages",
+        "headline": "Mensajes",
+        "items": [
+          {
+            "title": "Bandeja vacía",
+            "text": "No tienes mensajes nuevos."
+          }
+        ]
+      }
+    }
+  ]
+          }
+  
